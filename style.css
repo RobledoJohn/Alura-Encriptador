@@ -1,0 +1,9 @@
+body{
+    background-color: #F3F5FC;
+}
+
+header h1{
+    width: 60%;
+    background: grey;
+    margin: 25px auto 25px 80px;
+}
