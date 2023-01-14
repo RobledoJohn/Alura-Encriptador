@@ -1,9 +1,80 @@
 body{
+    font-family: 'Montserrat', sans-serif;
     background-color: #F3F5FC;
+    line-height: 1.5;
 }
-
-header h1{
-    width: 60%;
-    background: grey;
+main .superior{
     margin: 25px auto 25px 80px;
+}
+.izquierda{
+    display: block;
+}
+main{
+    display: flex;
+}
+main .izquierda{
+    width: 60%;
+}
+main .derecha{
+    width: 40%;
+}
+main textarea{
+    width: 80%;
+    margin: 25px auto 25px 80px;
+    color: #0A3871;
+    font-size: large;
+    border: none;
+}
+main button{
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border-color: none;
+    font-size: 1em;
+}
+.botones{
+    display: flex;
+    margin: 0 auto 0 80px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1{
+    color: white;
+    background-color: #0A3871;
+    border: 15px green;
+}
+.btn-1:hover{
+    color: #0A3871;
+    background-color: lightblue;
+    border: solid 2px #0A3871;
+}
+.btn-2{
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-color: solid 2px #0A3871;
+    margin: 10px;
+}
+.btn-2:hover{
+    background-color: white;
+    border: solid 2px #0A3871;
+}
+.derecha{
+    border: 5px;
+    border-radius: 25px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px #D8DFE8;
+}
+.lateral{
+    text-align: center;
+    display: block;
+    margin: 25% 0;
+}
+.lateral img{
+    width: 50%;
+    margin: 25px 0;
+}
+.lateral h2{
+    font-weight: bold;
+    font-size: 1.5em;
 }

@@ -8,17 +8,42 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    
+
     <title>Alura Encriptador</title>
   </head>
   <body>
-    <header>
-      <h1><img src="imagenes/logo.png" alt="logo" /></h1>
-    </header>
     <main>
-        <form>
-          <label for="texto"></label>
-          <textarea cols="70" rows="10" id="texto" placeholder="Ingrese el texto aquí"></textarea>
-          
-      </main>
+      <section class="izquierda">
+        <div class="superior">
+          <h1><img src="imagenes/logo.png" alt="logo" /></h1>
+        </div>
+        <div class="inferior">
+          <form name="descifrador">
+            <label for="texto"></label>
+            <textarea rows="30%" id="texto">ingrese el texto aqui sin mayusculas ni acentos</textarea>
+            <div class="botones">
+              <button class="btn-1" onclick="encriptar()">Encriptar</button>
+              <button class="btn-2" onclick="desencriptar()">Desencriptar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="derecha">
+        <div class="lateral" >
+          <img src="imagenes/Muñeco.png" alt="muñeco.png">
+          <h2>Ningun mensaje fue encontrado</h2>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
   </body>
 </html>
