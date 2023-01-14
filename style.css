@@ -2,6 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F3F5FC;
     line-height: 1.5;
+    width: 1300px;
 }
 main .superior{
     margin: 25px auto 25px 80px;
@@ -25,6 +26,8 @@ main textarea{
     font-size: large;
     border: none;
     resize: none;
+    border-radius: 15px;
+    padding: 15px;
 }
 main button{
     height: 40px;
@@ -32,6 +35,13 @@ main button{
     border-radius: 15px;
     border-color: none;
     font-size: 1em;
+}
+.inferior p{
+    color: grey;
+    margin-left: 80px;
+}
+.inferior p::before{
+    content: '\26A0 ';
 }
 .botones{
     display: flex;
@@ -80,6 +90,9 @@ main button{
     margin: 25% 0;
     height: 80%;
 }
+#laterales{
+    font-weight: bold;
+}
 .lateral img{
     width: 50%;
     margin: 25px 0;
@@ -100,4 +113,12 @@ main button{
     color: #0A3871;
     background-color: lightblue;
     border: solid 2px #0A3871;
+}
+footer{
+    background-color: #0A3871;
+    color: white;
+    text-align: center;
+    height: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
 }
