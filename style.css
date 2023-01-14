@@ -2,7 +2,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F3F5FC;
     line-height: 1.5;
-    width: 1300px;
+}
+main{
+    
+    width: 1080px;
+    margin: 0 auto;
 }
 main .superior{
     margin: 25px auto 25px 80px;
