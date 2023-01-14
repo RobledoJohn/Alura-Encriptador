@@ -24,6 +24,7 @@ main textarea{
     color: #0A3871;
     font-size: large;
     border: none;
+    resize: none;
 }
 main button{
     height: 40px;
@@ -58,17 +59,26 @@ main button{
     background-color: white;
     border: solid 2px #0A3871;
 }
+
 .derecha{
     border: 5px;
     border-radius: 25px;
     margin: 20px;
     background-color: white;
     box-shadow: 10px 10px 10px #D8DFE8;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.derecha button{
+    height: 40px;
 }
 .lateral{
     text-align: center;
     display: block;
     margin: 25% 0;
+    height: 80%;
 }
 .lateral img{
     width: 50%;
@@ -77,4 +87,17 @@ main button{
 .lateral h2{
     font-weight: bold;
     font-size: 1.5em;
+}
+.btn-3{
+    width: 80%;
+    align-items: center;
+    color: #0A3871;
+    background-color: white;
+    border-color: solid 2px #0A3871;
+    margin: 10px;
+}
+.btn-3:hover{
+    color: #0A3871;
+    background-color: lightblue;
+    border: solid 2px #0A3871;
 }
