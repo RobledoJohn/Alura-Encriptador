@@ -4,6 +4,12 @@ body{
     line-height: 1.5;
     width: 1360px;
 }
+.logo{
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+/*--------------------IZQUIERDA---------------*/
 main .superior{
     margin: 25px auto 25px 80px;
 }
@@ -72,7 +78,7 @@ main button{
     background-color: white;
     border: solid 2px #0A3871;
 }
-
+/*--------------------DERECHA---------------*/
 .derecha{
     border: 5px;
     border-radius: 25px;
@@ -125,10 +131,13 @@ footer{
     margin-top: 15px;
     padding-top: 15px;
 }
-
+/*--------------------TABLETS---------------*/
 @media screen and (max-width: 980px) {
     body{
         width: 980px;
+    }
+    .titulo{
+        text-align: center;
     }
     main{
         display: block;
@@ -137,24 +146,49 @@ footer{
     main .izquierda{
         width: 100%;
     }
+    main textarea{
+        width: 80%;
+        height: 380px;
+    }
+    .lateral{
+        margin: auto;
+    }
     main .derecha{
         width: 100%;
+        height: 380px;
     }
-    main textarea{
+    .btn-3{
         width: 80%;
     }
 }
+/*--------------------DERECHA---------------*/
 @media screen and (max-width: 400px) {
     body{
         width: 400px;
+    }
+    .titulo{
+        text-align: center;
     }
     main{
         display: block;
         width: 100%;
     }
+    .derecha img{
+        display: none;
+    }
     main textarea{
         width: 380px;
+        height: 200px;
         margin: 15px;
+    }
+    main .derecha{
+        height: 350px;
+    }
+    .lateral h2{
+        margin-top: 100px;
+    }
+    .lateral p{
+        margin-top: 20px;
     }
     footer{
         width: 110%;
