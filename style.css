@@ -2,11 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F3F5FC;
     line-height: 1.5;
-}
-main{
-    
-    width: 1080px;
-    margin: 0 auto;
+    width: 1360px;
 }
 main .superior{
     margin: 25px auto 25px 80px;
@@ -16,6 +12,8 @@ main .superior{
 }
 main{
     display: flex;
+    width: 1080px;
+    margin: 0 auto;
 }
 main .izquierda{
     width: 60%;
@@ -26,6 +24,7 @@ main .derecha{
 main textarea{
     width: 80%;
     margin: 25px auto 25px 80px;
+    background-color: #F3F5FC;
     color: #0A3871;
     font-size: large;
     border: none;
@@ -125,4 +124,41 @@ footer{
     height: 35px;
     margin-top: 15px;
     padding-top: 15px;
+}
+
+@media screen and (max-width: 980px) {
+    body{
+        width: 980px;
+    }
+    main{
+        display: block;
+        width: 980px;
+    }
+    main .izquierda{
+        width: 100%;
+    }
+    main .derecha{
+        width: 100%;
+    }
+    main textarea{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        width: 400px;
+    }
+    main{
+        display: block;
+        width: 100%;
+    }
+    main textarea{
+        width: 380px;
+        margin: 15px;
+    }
+    footer{
+        width: 110%;
+        font-size: x-small;
+        
+    }
 }
